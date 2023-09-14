@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: powderblue;
+    text-align: center;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.image-div {
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-div{
+    margin: 0 auto;
+    /* display: ; */
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+}
+
+.btn{
+    margin: 2rem;
+}
