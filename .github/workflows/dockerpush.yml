@@ -17,6 +17,11 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-        
+      
+      - name: 'Build and push to DockerHub'
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: kunal1906/devops-task:latest
 
   
