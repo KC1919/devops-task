@@ -21,6 +21,7 @@ jobs:
       - name: 'Build and push to DockerHub'
         uses: docker/build-push-action@v5
         with:
+          context: .
           push: true
           tags: kunal1906/devops-task:latest
 
